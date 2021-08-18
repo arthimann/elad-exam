@@ -1,0 +1,21 @@
+{
+    "name": "arthurmann/sciplay",
+    "description": "Elad Exam",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Arthur Mann",
+            "email": "test@localhost.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "9.x-dev",
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    }
+}
